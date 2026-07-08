@@ -39,6 +39,3 @@ jobs:
           source venv/bin/activate
           python3 -m pytest -v
 
-      - name: 🔒 Cerrar ambiente virtual
-        run: |
-          deactivate || true
